@@ -5,10 +5,10 @@ last_name = input("Enter your last name :: ")
 last_name = last_name.capitalize()
 email = input("Enter your email address here, e.g janedove@gmail.com :: ")
 
-def get_first_two_char(name):
+def get_first_two_char(first_name):
     char = first_name[:2]
     return str(char)
-def get_last_two_char(name):
+def get_last_two_char(last_name):
     reverse = last_name[::-1]
     char = reverse[:2]
     return str(char)
